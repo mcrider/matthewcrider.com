@@ -1,0 +1,33 @@
+
+nav {
+  background: none;
+  margin-top: 20px;
+  height: 110px;
+  padding: 0 30px;
+
+  .nav-title {
+    float: left;
+    font-size: 2rem;
+    padding: 22px 13px 13px 13px;
+    border-radius: 4px;
+    background: #ef4723;
+    font-family: $serif-font;
+    a {
+      font-family: $serif-font;
+      color: #eee;
+    }
+  }
+  ul {
+
+    li {
+      display: inline;
+      margin-right: 20px;
+      a {
+        font-family: $sans-serif-font;
+        color: $header-font-color;
+        font-size: 1.1rem;
+        line-height: 4rem;
+      }
+    }
+  }
+}

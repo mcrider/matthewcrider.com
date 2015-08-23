@@ -1,0 +1,41 @@
+// Various helper classes
+%clearfix {
+  @include clearfix;
+}
+
+.pull-right {
+  float:right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.indent {
+  margin-left: 38px;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.right {
+  float: right !important;
+}
+
+.row {
+  @include outer-container;
+}
+
+.large-9 {
+  @include span-columns(8);
+  @include shift(2);
+}

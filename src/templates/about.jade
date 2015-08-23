@@ -1,0 +1,36 @@
+extends layout
+
+block title
+  title About | Matthew Crider
+
+block content
+  .contents-container
+    #contents
+      nav
+        h1.nav-title
+          a(href='/') MC
+        ul.right
+          li
+            a(href='/about') About
+          li
+            a(href='/contact') Contact
+      #page
+        .about
+          .container
+            .row
+              .large-9.large-centered.columns
+                img(src='/images/me-square-blue-transparent.png')
+          .row
+            .large-9.large-centered.columns
+              h3 My Name is Matt Crider.
+              h4
+                | I’m a web developer with skills up and down the web stack, with years of experience in back-end and front-end web development and an eye to great experience design.
+              p
+                | I learned how to build my first website from the manual that came with Netscape Navigator (back when you got software on a floppy disk and HTML tags were in all caps).  From that point on, I’ve had a connection with the web and watched it grow from blink tags, cgi-bin and Geocities to SVG, Node.js and AWS.  It has a long way to go but I’m doing my damnedest to help get it there.
+              p
+                | In school I studied something called Cognitive Science, because at my core I'm passionate about a lot of wide-ranging disciplines.  I’ve studied the texts of great philosophers and the Github repos of little-known engineers.  And this may be why the web is so fascinating to me — it democratizes the distribution of the knowledge I’m always hungry for.  But I’m conscious of the fact that knowledge can't be dumped on a screen and expected to be ingested; proper presentation is both an art and a science and is something I’ll spend my life mastering.
+              .resume-button-container
+                .resume-button
+                  a.resume-icon.icon.icon-document(target='_blank', href='/media/resume.pdf')
+                  a.resume-label(target='_blank', href='/media/resume.pdf') Download My Resume
+      

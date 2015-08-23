@@ -1,0 +1,43 @@
+extends layout
+
+block title
+  title Matthew Crider
+
+block content
+  .contents-container
+    #contents
+      nav
+        h1.nav-title
+          a(href='/') MC
+        ul.right
+          li
+            a(href='/about') About
+          li
+            a(href='/contact') Contact
+      #page
+        .home
+          .container.call-to-me
+            .row.text-center
+              .large-12.columns
+                img(src='/images/me-circle2.png')
+                h3 I help make the web a better place.
+                p User Experience - Front End - Back End
+          .row.text-center
+            .large-12.columns
+              ul.inline-list.social-links
+                li
+                  a(href='http://facebook.com/mcriddy')
+                    img(src='/images/social_icons/facebook.png')
+                li
+                  a(href='http://twitter.com/mcriddy')
+                    img(src='/images/social_icons/twitter.png')
+                li
+                  a(href='http://github.com/mcrider')
+                    img(src='/images/social_icons/github.png')
+                li
+                  a(href='http://www.linkedin.com/in/mcrider/')
+                    img(src='/images/social_icons/linkedin.png')
+                li
+                  a(href='http://www.flickr.com/photos/33460719@N07/')
+                    img(src='/images/social_icons/flickr.png')
+        

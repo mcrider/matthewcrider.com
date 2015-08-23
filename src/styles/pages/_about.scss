@@ -1,0 +1,42 @@
+.about {
+  .container {
+    background: #22373f;
+  }
+  img {
+
+  }
+  p {
+    line-height: 28px;
+    margin-top: 30px;
+  }
+  .resume-button-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .resume-button {
+    display: inline;
+    border-radius: 10px;
+    background: #22373f;
+    padding: 20px 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    a {
+      color: white;
+      line-height: 1.3em;
+      vertical-align: middle;
+      padding: 20px;
+    }
+    &:hover {
+      background: #3A555F;
+    }
+    .resume-icon {
+      border-right: 1px solid white;
+      font-size: 1.3em;
+    }
+    .resume-label {
+      font-size: .85em;
+      text-transform: uppercase;
+    }
+  }
+}
