@@ -34,8 +34,3 @@
 .row {
   @include outer-container;
 }
-
-.large-9 {
-  @include span-columns(8);
-  @include shift(2);
-}
