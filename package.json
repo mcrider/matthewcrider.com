@@ -12,7 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "browserify": "^9.0.8",
+    "d3": "^4.7.2",
     "debowerify": "^1.2.0",
+    "github-user-contributions": "^0.1.0",
     "gulp": "^3.8.11",
     "gulp-minify-css": "^1.1.1",
     "handlebars": "^3.0.1",
